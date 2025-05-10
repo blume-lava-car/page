@@ -22,7 +22,7 @@ export default function BlumeLavaCar() {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5500000000000?text=Olá,%20gostaria%20de%20agendar%20um%20serviço%20no%20Blume%20Lava%20Car!', '_blank');
+    window.open('https://wa.me/5551995760430?text=Olá,%20gostaria%20de%20agendar%20um%20serviço%20no%20Blume%20Lava%20Car!', '_blank');
   };
   
   const scrollToSection = (sectionId) => {
@@ -93,12 +93,24 @@ export default function BlumeLavaCar() {
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section - Reorganized */}
       <section className="hero-section">
         <div className="hero-background"></div>
         <div className="container">
-          <div className="hero-content">
-            <div className="hero-text">
+          <div className="hero-content-new">
+            {/* Full-width image first */}
+            <div className="hero-image-full">
+              <div className="image-container-full">
+                <img 
+                  src="src/assets/logo.png" 
+                  alt="Blume Lava Car" 
+                  className="hero-img-full"
+                />
+              </div>
+            </div>
+            
+            {/* Hero text below the image, full width */}
+            <div className="hero-text-full">
               <div className="hero-tag">
                 <span>Lavagem Premium</span>
               </div>
@@ -136,18 +148,7 @@ export default function BlumeLavaCar() {
               </div>
               <div className="hero-location">
                 <MapPin size={18} />
-                <span>Dois Irmãos, RS - Atendemos em toda a cidade</span>
-              </div>
-            </div>
-            <div className="hero-image">
-              <div className="image-container">
-                <div className="image-badge">
-                </div>
-                <img 
-                  src="src/assets/logo.png" 
-                  alt="Blume Lava Car" 
-                  className="hero-img"
-                />
+                <span>Dois Irmãos, RS - Atendemos em toda a cidade e região</span>
               </div>
             </div>
           </div>
@@ -158,8 +159,6 @@ export default function BlumeLavaCar() {
         </div>
       </section>
 
-      {/* O resto do código permanece o mesmo */}
-      
       {/* Services Section */}
       <section className="section section-white" id="services">
         <div className="container">
