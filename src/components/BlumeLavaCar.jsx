@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Phone, Car, Clock, Sparkles, Droplets, Check, MapPin, ChevronDown } from 'lucide-react';
 import './BlumeLavaCarStyles.css';
+import logo from '../assets/logo.png';
 
 export default function BlumeLavaCar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -102,7 +103,7 @@ export default function BlumeLavaCar() {
             <div className="hero-image-full">
               <div className="image-container-full">
                 <img 
-                  src="src/assets/logo.png" 
+                  src={logo}
                   alt="Blume Lava Car" 
                   className="hero-img-full"
                 />
