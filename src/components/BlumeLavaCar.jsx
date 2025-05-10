@@ -148,7 +148,7 @@ export default function BlumeLavaCar() {
               </div>
               <div className="hero-location">
                 <MapPin size={18} />
-                <span>Dois Irmãos, RS - Atendemos em toda a cidade e região</span>
+                <span>Dois Irmãos, RS - Atendemos em toda a região</span>
               </div>
             </div>
           </div>
