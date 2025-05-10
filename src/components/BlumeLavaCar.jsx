@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Phone, Car, Clock, Sparkles, Droplets, Check, MapPin, ChevronDown } from 'lucide-react';
 import './BlumeLavaCarStyles.css';
-import logo from '../assets/logo.png';
+import logo from './assets/logo.png';
 
 export default function BlumeLavaCar() {
   const [isScrolled, setIsScrolled] = useState(false);
