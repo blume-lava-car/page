@@ -677,6 +677,15 @@
   animation: bounce 2s infinite;
 }
 
+@media (max-height: 750px) {
+  .hero-scroll-indicator {
+    position: relative;
+    bottom: auto;
+    margin-top: 20px;
+    animation: none;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-scroll-indicator {
     bottom: 24px;
