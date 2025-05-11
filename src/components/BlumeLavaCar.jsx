@@ -267,6 +267,7 @@ export default function BlumeLavaCar() {
             
             <div className="footer-text">
               <p>© 2025 Blume Lava Car. Todos os direitos reservados.</p>
+              <p className="developer-credit">Desenvolvido por Erik Orsolin</p>
             </div>
           </div>
         </div>
