@@ -207,14 +207,6 @@
   background-color: var(--bg-light);
 }
 
-.button-icon {
-  margin-right: 8px;
-}
-
-.button-icon-right {
-  margin-left: 8px;
-}
-
 /* Mobile Menu - Improved */
 .mobile-menu-button {
   display: block;
@@ -1118,4 +1110,3 @@
   align-items: center;
   justify-content: center;
 }
-

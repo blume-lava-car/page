@@ -58,11 +58,6 @@ export default function BlumeLavaCar() {
                   Contato
                 </button>
               </div>
-              
-              <button className="button button-primary" onClick={handleWhatsAppClick}>
-                <Phone size={16} className="button-icon" />
-                <span>Agendar Agora</span>
-              </button>
             </div>
             
             <button className="mobile-menu-button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
